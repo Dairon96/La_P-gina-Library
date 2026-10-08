@@ -4,141 +4,100 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contacto | Librería La Página</title>
-  <meta name="description" content="Escríbenos, visítanos o reserva un taller en Librería La Página. Dirección, horarios, teléfono y formulario de contacto en Pinar del Río.">
-  <meta name="keywords" content="contacto Librería La Página, dirección, horarios, reservas, Pinar del Río">
+  <meta name="description" content="Dirección, horarios y formulario de contacto de Librería La Página en Pinar del Río.">
+  <meta name="keywords" content="contacto, dirección, horarios, Pinar del Río">
   <meta name="author" content="Dairon Vilaú Santalla">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://librerialapagina.example/contacto.html">
-
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Contacto | Librería La Página">
-  <meta property="og:description" content="Dirección, horarios y formulario de contacto de Librería La Página.">
-  <meta property="og:image" content="https://picsum.photos/seed/lapagina-contacto/1200/630">
-  <meta property="og:locale" content="es_ES">
-  <meta name="theme-color" content="#2f5d50">
-
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%232f5d50'/%3E%3C/svg%3E">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <a class="saltar" href="#contenido">Saltar al contenido principal</a>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
 
   <header class="cabecera">
     <div class="cabecera__inner">
-      <a class="marca" href="index.html">
-        <svg class="marca__logo" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-          <path d="M10 14h20v24H10z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
-          <path d="M30 14h8v24h-8z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/>
-          <path d="M14 20h12M14 26h12M14 32h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>
-        <span class="marca__texto">Librería La Página</span>
-      </a>
+      <a class="marca" href="index.html">Librería La Página</a>
 
-      <nav class="nav" aria-label="Navegación principal">
+      <nav aria-label="Navegación principal">
         <ul class="nav__lista">
-          <li><a class="nav__enlace" href="index.html">Inicio</a></li>
-          <li><a class="nav__enlace" href="nosotros.html">Nosotros</a></li>
-          <li><a class="nav__enlace" href="servicios.html">Servicios</a></li>
-          <li><a class="nav__enlace" href="contacto.html" aria-current="page">Contacto</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="contacto.html" aria-current="page">Contacto</a></li>
         </ul>
       </nav>
 
-      <a class="btn btn--contorno cabecera__cta" href="login.html">Iniciar sesión</a>
+      <a class="btn btn--borde" href="login.html">Iniciar sesión</a>
     </div>
   </header>
 
   <main id="contenido">
 
-    <section class="encabezado-pagina">
-      <div class="contenedor">
-        <p class="etiqueta">Contacto</p>
-        <h1>Hablemos de libros</h1>
-        <p class="texto-suave">Reservas de talleres, encargos especiales, propuestas de presentaciones o simplemente una recomendación: escríbenos y te respondemos en menos de 24 horas.</p>
-      </div>
-    </section>
+    <section class="seccion">
+      <div class="contenedor rejilla-2">
 
-    <section class="seccion" aria-labelledby="contacto-titulo">
-      <div class="contenedor rejilla-contacto">
+        <div>
+          <h1>Contacto</h1>
+          <p class="texto-suave">Escríbenos y te respondemos en menos de 24 horas.</p>
 
-        <div class="datos-contacto">
-          <h2 id="contacto-titulo">Dónde encontrarnos</h2>
-
-          <address class="direccion">
+          <address>
             <strong>Librería La Página</strong><br>
-            Calle Martí #145, entre Isabel Rubio y Ceferino Fernández<br>
-            Pinar del Río, 20100, Cuba
+            Calle Martí #145, Pinar del Río<br>
+            Cuba, 20100
           </address>
 
-          <h3>Horarios</h3>
-          <ul class="lista-datos">
-            <li><span>Martes a viernes</span><span>9:00 – 19:00</span></li>
-            <li><span>Sábado y domingo</span><span>10:00 – 20:00</span></li>
-            <li><span>Lunes</span><span>Cerrado (día de inventario)</span></li>
+          <h2>Horarios</h2>
+          <ul class="lista">
+            <li>Martes a viernes: 9:00 – 19:00</li>
+            <li>Sábado y domingo: 10:00 – 20:00</li>
+            <li>Lunes: cerrado</li>
           </ul>
 
-          <h3>Contacto directo</h3>
-          <ul class="lista-datos">
-            <li><span>Teléfono</span><a href="tel:+5350000000">+53 5 000 0000</a></li>
-            <li><span>Correo</span><a href="mailto:hola@librerialapagina.example">hola@librerialapagina.example</a></li>
+          <h2>Contacto directo</h2>
+          <ul class="lista">
+            <li>Teléfono: <a href="tel:+5350000000">+53 5 000 0000</a></li>
+            <li>Correo: <a href="mailto:hola@librerialapagina.example">hola@librerialapagina.example</a></li>
           </ul>
         </div>
 
-        <form class="formulario" action="#" method="post" aria-labelledby="form-titulo">
-          <h2 id="form-titulo">Envíanos un mensaje</h2>
+        <form class="formulario" action="#" method="post">
+          <h2>Envíanos un mensaje</h2>
 
           <div class="campo">
-            <label for="nombre">Nombre y apellidos</label>
-            <input type="text" id="nombre" name="nombre" autocomplete="name"
-                   placeholder="Ana Pérez" required minlength="3">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required minlength="3">
           </div>
 
           <div class="campo">
             <label for="correo">Correo electrónico</label>
-            <input type="email" id="correo" name="correo" autocomplete="email"
-                   placeholder="ana@ejemplo.com" required>
+            <input type="email" id="correo" name="correo" required>
           </div>
 
           <div class="campo">
-            <label for="telefono">Teléfono <span class="opcional">(opcional)</span></label>
-            <input type="tel" id="telefono" name="telefono" autocomplete="tel"
-                   placeholder="+53 5 123 4567" pattern="[+0-9\s()-]{7,20}">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[+0-9\s()-]{7,20}">
           </div>
 
           <div class="campo">
-            <label for="asunto">Motivo del mensaje</label>
+            <label for="asunto">Motivo</label>
             <select id="asunto" name="asunto" required>
               <option value="" selected disabled>Selecciona una opción</option>
-              <option value="reserva">Reserva de taller o club</option>
+              <option value="reserva">Reserva de taller</option>
               <option value="encargo">Encargo de un libro</option>
-              <option value="presentacion">Propuesta de presentación</option>
-              <option value="colaboracion">Colaboración o donación</option>
               <option value="otro">Otro asunto</option>
             </select>
           </div>
 
           <div class="campo">
-            <label for="fecha">Fecha preferida para la visita <span class="opcional">(opcional)</span></label>
-            <input type="date" id="fecha" name="fecha" min="2026-10-08">
-          </div>
-
-          <div class="campo">
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="5" required minlength="20"
-                      placeholder="Cuéntanos qué necesitas (mínimo 20 caracteres)"></textarea>
+            <textarea id="mensaje" name="mensaje" rows="5" required minlength="20"></textarea>
           </div>
 
           <div class="campo campo--check">
             <input type="checkbox" id="privacidad" name="privacidad" required>
-            <label for="privacidad">He leído y acepto la política de privacidad y el tratamiento de mis datos.</label>
+            <label for="privacidad">Acepto la política de privacidad.</label>
           </div>
 
-          <button class="btn btn--bloque" type="submit">Enviar mensaje</button>
+          <button class="btn" type="submit">Enviar mensaje</button>
         </form>
 
       </div>
@@ -150,11 +109,11 @@
     <div class="contenedor">
       <div class="pie__columnas">
         <div>
-          <h2 class="pie__titulo">Librería La Página</h2>
-          <p class="texto-suave">Libros que iluminan. Catálogo curado, clubes de lectura y talleres en Pinar del Río.</p>
+          <h2>Librería La Página</h2>
+          <p>Catálogo curado, clubes de lectura y talleres en Pinar del Río.</p>
         </div>
-        <nav aria-label="Enlaces del sitio">
-          <h2 class="pie__titulo">Explorar</h2>
+        <div>
+          <h2>Explorar</h2>
           <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
@@ -162,20 +121,16 @@
             <li><a href="contacto.html">Contacto</a></li>
             <li><a href="login.html">Iniciar sesión</a></li>
           </ul>
-        </nav>
+        </div>
         <div>
-          <h2 class="pie__titulo">Síguenos</h2>
+          <h2>Síguenos</h2>
           <ul>
-            <li><a href="https://instagram.com" rel="noopener noreferrer" target="_blank">Instagram</a></li>
-            <li><a href="https://facebook.com" rel="noopener noreferrer" target="_blank">Facebook</a></li>
-            <li><a href="https://wa.me/5350000000" rel="noopener noreferrer" target="_blank">WhatsApp</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
           </ul>
         </div>
       </div>
-      <div class="pie__legal">
-        <p>© 2026 Librería La Página. Todos los derechos reservados.</p>
-        <p>Hecho en Pinar del Río, Cuba.</p>
-      </div>
+      <p class="pie__legal">© 2026 Librería La Página. Todos los derechos reservados.</p>
     </div>
   </footer>
 
